@@ -55,6 +55,15 @@
                                     <rect key="frame" x="21" y="78" width="266" height="78"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zog-0l-kfv">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="21" y="161" width="154" height="21"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R89-kf-HZW">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -69,6 +78,7 @@
                                 <exclude reference="OUP-b1-87H"/>
                                 <exclude reference="x7r-tY-rhI"/>
                                 <exclude reference="aGI-a4-G7Y"/>
+                                <exclude reference="Zog-0l-kfv"/>
                                 <exclude reference="R89-kf-HZW"/>
                             </mask>
                         </variation>
@@ -78,6 +88,7 @@
                                 <include reference="OUP-b1-87H"/>
                                 <include reference="x7r-tY-rhI"/>
                                 <include reference="aGI-a4-G7Y"/>
+                                <include reference="Zog-0l-kfv"/>
                                 <include reference="R89-kf-HZW"/>
                             </mask>
                         </variation>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="ccK-mi-Bim" id="s8i-ML-Pzz"/>
                         <outlet property="mailButton" destination="x7r-tY-rhI" id="T3n-aB-J0M"/>
                         <outlet property="messageLabel" destination="aGI-a4-G7Y" id="Q4T-8l-Qpg"/>
+                        <outlet property="nameLabel" destination="Zog-0l-kfv" id="YyI-7s-zhJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
